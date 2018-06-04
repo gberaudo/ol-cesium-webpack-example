@@ -1,9 +1,11 @@
 {
-  "name": "cesium-webpack-example",
+  "name": "ol-cesium-webpack-example",
   "version": "1.0.0",
-  "description": "The minimal recomended setup for an app using Cesium with Webpack.",
+  "description": "A POC of OL-Cesium Webpack project based on the official Cesium with Webpack example.",
   "main": "index.js",
   "keywords": [
+    "ol-cesium",
+    "openlayers",
     "cesium",
     "webpack",
     "example"
@@ -20,6 +22,8 @@
     "css-loader": "^0.28.7",
     "html-webpack-plugin": "^2.30.1",
     "strip-pragma-loader": "^1.0.0",
+    "openlayers": "https://api.github.com/repos/openlayers/openlayers/tarball/f284b95cb897b3ce1b49b985b58ebe1ca76be1fe",
+    "ol-cesium": "^2.0.0",
     "style-loader": "^0.18.2",
     "uglifyjs-webpack-plugin": "^1.0.0-beta.3",
     "url-loader": "^0.6.2",

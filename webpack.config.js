@@ -7,6 +7,7 @@ const CopyWebpackPlugin = require('copy-webpack-plugin');
 // The path to the cesium source code
 const cesiumSource = 'node_modules/cesium/Source';
 const cesiumWorkers = '../Build/Cesium/Workers';
+const olSource = 'node_modules/openlayers/src/ol';
 
 module.exports = [{
     context: __dirname,
@@ -31,6 +32,7 @@ module.exports = [{
     resolve: {
         alias: {
             // Cesium module name
+            ol: path.resolve(__dirname, olSource),
             cesium: path.resolve(__dirname, cesiumSource)
         }
     },
