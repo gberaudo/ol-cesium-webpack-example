@@ -32,7 +32,6 @@ module.exports = [{
     resolve: {
         alias: {
             // Cesium module name
-            ol: path.resolve(__dirname, olSource),
             cesium: path.resolve(__dirname, cesiumSource)
         }
     },
